@@ -1,0 +1,57 @@
+.student-card{
+    background:#fff;
+    margin-top:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.student-card h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.student-card p{
+    margin:8px 0;
+    font-size:16px;
+}
+
+.btn-group{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.present-btn,
+.absent-btn,
+.delete-btn{
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+}
+
+.present-btn{
+    background:green;
+}
+
+.absent-btn{
+    background:orange;
+}
+
+.delete-btn{
+    background:red;
+}
+
+.present-btn:hover{
+    background:darkgreen;
+}
+
+.absent-btn:hover{
+    background:darkorange;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
